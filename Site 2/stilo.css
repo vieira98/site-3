@@ -1,0 +1,79 @@
+body{
+    background-color:white;
+    margin: 0 auto;
+    max-width: 100%;
+}
+a{
+    text-decoration: none; 
+    color: white;
+    font-size: medium;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+
+nav{
+    list-style: none;
+}
+
+nav li{
+    
+    float:left;
+    
+}
+li{
+display: block;
+text-align:left;
+padding: 2px 8px;
+ 
+}
+.gallery {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    
+}
+.gallery__img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit:contain
+}
+h2 {
+    font-family: "Revalia", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+         
+}
+ 
+.image_logo{
+ position: absolute;  
+    left: 100%;
+}
+.menu{
+    font-family: "Revalia", sans-serif;
+    font-weight: 400; 
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 300px;
+    top: 20px;
+    
+}
+.menu2{
+    position: relative;
+    left: 450px;
+    
+    bottom: 20px;
+    
+}
+
+
+
+
